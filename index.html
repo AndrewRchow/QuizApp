@@ -25,7 +25,7 @@
             </h3>
         </div>
 
-        <div ng-controller="listCtrl as list" ng-hide="list.quizMetrics.quizActive || list.quizMetrics.resultsActive">
+        <div class="ng-cloak" ng-controller="listCtrl as list" ng-hide="list.quizMetrics.quizActive || list.quizMetrics.resultsActive">
             <form class="form-inline well well-sm clearfix">
                 <span class="glyphicon glyphicon-search"></span>
                 <input type="text" placeholder="Search..." class="form-control" ng-model="list.search">
@@ -87,7 +87,7 @@
             </div>
         </div>
 
-        <div ng-controller="quizCtrl as quiz" ng-show="quiz.quizMetrics.quizActive">
+        <div class="ng-cloak" ng-controller="quizCtrl as quiz" ng-show="quiz.quizMetrics.quizActive">
             <div class="row">
                 <div class="col-xs-8">
                     <h4>Progress:</h4>
@@ -162,7 +162,7 @@
             </div>
         </div>
 
-        <div ng-controller="resultsCtrl as results" ng-show="results.quizMetrics.resultsActive">
+        <div class="ng-cloak" ng-controller="resultsCtrl as results" ng-show="results.quizMetrics.resultsActive">
             <div class="results-box">
                 <div class="row">
                     <div class="col-xs-8">
