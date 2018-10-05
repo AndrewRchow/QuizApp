@@ -19,7 +19,7 @@
 var turtlesData = [
 		        {
 		            type: "Green Turtle",
-		            image_url: "http://www.what-do-turtles-eat.com/wp-content/uploads/2014/10/Sea-Turtles-Habitat.jpg",
+		            image_url: "./images/greenT.jpg",
 		            locations: "Tropical and subtropical oceans worldwide",
 		            size: "Up to 1.5m and up to 300kg",
 		            lifespan: "Over 80 years",
@@ -28,7 +28,7 @@ var turtlesData = [
 		        },
 		        {
 		            type: "Loggerhead Turtle",
-		            image_url: "http://i.telegraph.co.uk/multimedia/archive/02651/loggerheadTurtle_2651448b.jpg",
+		            image_url: "./images/loggerheadT.jpg",
 		            locations: "Tropical and subtropical oceans worldwide",
 		            size: "90cm, 115kg",
 		            lifespan: "More than 50 years",
@@ -37,7 +37,7 @@ var turtlesData = [
 		        },
 		        {
 		            type: "Leatherback Turtle",
-		            image_url: "https://static-secure.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/8/13/1313246505515/Leatherback-turtle-007.jpg",
+		            image_url: "./images/leatherbackT.jpg",
 		            locations: "All tropical and subtropical oceans",
 		            size: "Up to 2m, up to 900kg",
 		            lifespan: "45 years",
@@ -46,7 +46,7 @@ var turtlesData = [
 		        },
 		        {
 		            type: "Hawksbill Sea Turtle",
-		            image_url: "http://assets.worldwildlife.org/photos/163/images/carousel_small/SCR_290360hawskbill-why-matter-LG.jpg?1345565532",
+		            image_url: "./images/hawksbillSeaT.jpg",
 		            locations: "Tropical Coastal areas around the world",
 		            size: "Over 1m, 45-68kg",
 		            lifespan: "30-50 Years",
@@ -55,7 +55,7 @@ var turtlesData = [
 		        },
 		        {
 		            type: "Alligator Snapping Turtle",
-		            image_url: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Alligator_snapping_turtle_-_Geierschildkr%C3%B6te_-_Alligatorschildkr%C3%B6te_-_Macrochelys_temminckii_01.jpg",
+		            image_url: "./images/alligatorSnappingT.jpg",
 		            locations: "Along the Atlantic Coast of USA",
 		            size: "around 60cm, up to 100kg",
 		            lifespan: "20-70 years",
@@ -64,7 +64,7 @@ var turtlesData = [
 		        },
 		        {
 		            type: "Kemp's Ridley Sea Turtle",
-		            image_url: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kemp's_Ridley_sea_turtle_nesting.JPG",
+		            image_url: "./images/kempsRidleySeaT.jpg",
 		            locations: "Coastal areas of the North Atlantic",
 		            size: "65cm, up to 45kg",
 		            lifespan: "Around 50 years",
@@ -73,7 +73,7 @@ var turtlesData = [
 		        },
 		        {
 		            type: "Olive Ridley Turtle",
-		            image_url: "http://images.nationalgeographic.com/wpf/media-live/photos/000/006/cache/ridley-sea-turtle_688_600x450.jpg",
+		            image_url: "./images/oliveRidleyT.jpg",
 		            locations: "Tropical coastal areas around the world",
 		            size: "70cm, 45kg",
 		            lifespan: "50 years",
@@ -82,7 +82,7 @@ var turtlesData = [
 		        },
 		        {
 		            type: "Eastern Snake Necked Turtle",
-		            image_url: "https://c1.staticflickr.com/3/2182/2399413165_bcc8031cac_z.jpg?zz=1",
+		            image_url: "./images/easternSnakeNeckedT.jpg",
 		            locations: "Eastern Australia",
 		            size: "Up to 30cm",
 		            lifespan: "25 years",
@@ -136,16 +136,16 @@ var quizQuestions  = [
             text: "Which of these is the Alligator Snapping Turtle?",
             possibilities: [
                 {
-                    answer: "https://c1.staticflickr.com/3/2182/2399413165_bcc8031cac_z.jpg?zz=1"
+                    answer: "./images/easternSnakeNeckedT.jpg"
                 },
                 {
-                    answer: "http://images.nationalgeographic.com/wpf/media-live/photos/000/006/cache/ridley-sea-turtle_688_600x450.jpg"
+                    answer: "./images/loggerheadT.jpg"
                 },
                 {
-                    answer: "https://static-secure.guim.co.uk/sys-images/Guardian/Pix/pictures/2011/8/13/1313246505515/Leatherback-turtle-007.jpg"
+                    answer: "./images/leatherbackT.jpg"
                 },
                 {
-                    answer: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Alligator_snapping_turtle_-_Geierschildkr%C3%B6te_-_Alligatorschildkr%C3%B6te_-_Macrochelys_temminckii_01.jpg"
+                    answer: "./images/alligatorSnappingT.jpg"
                 }
             ],
             selected: null,
@@ -156,16 +156,16 @@ var quizQuestions  = [
             text: "Which of these is the Green Turtle?",
             possibilities: [
                 {
-                    answer: "http://www.what-do-turtles-eat.com/wp-content/uploads/2014/10/Sea-Turtles-Habitat.jpg"
+                    answer: "./images/greenT.jpg"
                 },
                 {
-                    answer: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kemp's_Ridley_sea_turtle_nesting.JPG"
+                    answer: "./images/kempsRidleySeaT.jpg"
                 },
                 {
-                    answer: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Alligator_snapping_turtle_-_Geierschildkr%C3%B6te_-_Alligatorschildkr%C3%B6te_-_Macrochelys_temminckii_01.jpg"
+                    answer: "./images/alligatorSnappingT.jpg"
                 },
                 {
-                    answer: "http://assets.worldwildlife.org/photos/163/images/carousel_small/SCR_290360hawskbill-why-matter-LG.jpg?1345565532"
+                    answer: "./images/hawksbillSeaT.jpg"
                 }
             ],
             selected: null,
@@ -236,16 +236,16 @@ var quizQuestions  = [
             text: "Which of these is the Olive Ridley Turtle?",
             possibilities: [
                 {
-                    answer: "http://i.telegraph.co.uk/multimedia/archive/02651/loggerheadTurtle_2651448b.jpg"
+                    answer: "./images/loggerheadT.jpg"
                 },
                 {
-                    answer: "http://assets.worldwildlife.org/photos/163/images/carousel_small/SCR_290360hawskbill-why-matter-LG.jpg?1345565532"
+                    answer: "./images/hawksbillSeaT.jpg"
                 },
                 {
-                    answer: "http://images.nationalgeographic.com/wpf/media-live/photos/000/006/cache/ridley-sea-turtle_688_600x450.jpg"
+                    answer: "./images/oliveRidleyT.jpg"
                 },
                 {
-                    answer: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kemp's_Ridley_sea_turtle_nesting.JPG"
+                    answer: "./images/kempsRidleySeaT.jpg"
                 }
             ],
             selected: null,
