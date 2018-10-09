@@ -11,12 +11,12 @@
   } */
 
 body{
-	background:rgb(51,88,148);
+	background:#82afb3;
 	color:white;
 }
 
 .fa-github {
-	color:rgb(51,88,148);
+	color:#56c4a6;
 }
 
 #title {
@@ -26,7 +26,7 @@ body{
 }
 
 .page-header {
-	background-color: rgb(125,189,155);
+	background-color: #3a7f4d;
     padding: 1.5rem;
     margin: 40px 0 20px;
 	/* border: 1px solid #e3e3e3; */
@@ -38,8 +38,12 @@ body{
 	padding:2rem;
 }
 
+#startBar{
+	background-color:#56c4a6 !important;
+}
+
 .well {
-	background-color: rgb(125,189,155);
+	background-color: #59afb1;
 	border:none;
 	border-radius:8px;
 }
@@ -59,7 +63,7 @@ body{
 }
 
 .modal-content {
-	background-color: rgb(64, 128, 94);
+	background-color: #56c4a6;
 	border:none;
 	border-radius:8px;
 }

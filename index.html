@@ -26,7 +26,7 @@
         </div>
 
         <div class="ng-cloak" ng-controller="listCtrl as list" ng-hide="list.quizMetrics.quizActive || list.quizMetrics.resultsActive">
-            <form class="form-inline well well-sm clearfix">
+            <form class="form-inline well well-sm clearfix" id="startBar">
                 <span class="glyphicon glyphicon-search"></span>
                 <input type="text" placeholder="Search..." class="form-control" ng-model="list.search">
                 <button class="btn btn-warning pull-right" ng-click="list.activateQuiz()" style="margin-top:1rem;">
